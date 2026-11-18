@@ -1,0 +1,140 @@
+# Game-specific configuration — regions, templates, and army composition.
+
+farming:
+  attack_style: "spam"
+  train_army_index: 7
+
+  troop_slot_x: 1220
+  troop_slot_y: 1001
+  troop_slots:
+  - - 321
+    - 998
+  - - 445
+    - 998
+  - - 1220
+    - 1001
+  hero_slots:
+  - - 717
+    - 998
+  - - 833
+    - 1000
+  - - 965
+    - 998
+  - - 1073
+    - 997
+army_composition:
+  barbarian: 100
+  archer: 100
+
+screen_regions:
+  resource_bar:
+    x: 0
+    y: 0
+    width: 500
+    height: 80
+  attack_button:
+    x: 55
+    y: 925
+    width: 100
+    height: 100
+  enemy_gold:
+    x: 77
+    y: 122
+    width: 196
+    height: 34
+  enemy_elixir:
+    x: 74
+    y: 170
+    width: 191
+    height: 40
+  enemy_dark_elixir:
+    x: 71
+    y: 217
+    width: 141
+    height: 43
+
+  deploy_top_left:
+    x: 1
+    y: 1
+    width: 877
+    height: 544
+  deploy_bottom_left:
+    x: 2
+    y: 546
+    width: 910
+    height: 495
+  deploy_top_right:
+    x: 1051
+    y: 2
+    width: 855
+    height: 540
+  deploy_bottom_right:
+    x: 1010
+    y: 536
+    width: 900
+    height: 505
+  deploy_polygon:
+  - - 1173
+    - 904
+  - - 1668
+    - 516
+  - - 1020
+    - 10
+  - - 866
+    - 7
+  - - 200
+    - 511
+  - - 704
+    - 905
+  - - 1173
+    - 904
+  own_gold:
+    x: 1621
+    y: 36
+    width: 211
+    height: 36
+  own_elixir:
+    x: 1623
+    y: 122
+    width: 212
+    height: 32
+  find_match:
+    x: 214
+    y: 710
+    width: 100
+    height: 100
+  confirm_match:
+    x: 1578
+    y: 868
+    width: 100
+    height: 100
+templates:
+  states:
+    loading: "templates/common/loading_screen.png"
+    main_village: "templates/common/home_button.png"
+    disconnected: "templates/dialogs/reload_popup.png"
+    try_again: "templates/dialogs/try_again_button.png"
+  buttons:
+    attack: "templates/common/attack_button.png"
+    train: "templates/common/train_button.png"
+    saved_recipes_tab: "templates/common/saved_recipes_tab.png"
+    quick_train: "templates/common/quick_train_button.png"
+    find_match: "templates/battle/find_match.png"
+    confirm_attack: "templates/battle/confirm_attack.png"
+    next_base: "templates/battle/next_button.png"
+    return_home: "templates/battle/return_home.png"
+    end_battle: "templates/battle/end_battle.png"
+  collectors:
+    gold_full: "templates/collectors/gold_full.png"
+    elixir_full: "templates/collectors/elixir_full.png"
+    dark_elixir_full: "templates/collectors/dark_elixir_full.png"
+auto_wall:
+  btn_confirm_x: 1353
+  btn_confirm_y: 923
+  wall_x: 409
+  wall_y: 493
+  enabled: true
+  btn_gold_x: 1044
+  btn_gold_y: 876
+  btn_elixir_x: 1189
+  btn_elixir_y: 870

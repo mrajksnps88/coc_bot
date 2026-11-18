@@ -1,0 +1,10 @@
+pure-python-adb
+opencv-python>=4.8.0
+numpy>=1.24.0
+Pillow>=10.0.0
+transitions>=0.9.0
+PyYAML>=6.0
+easyocr>=1.7.0
+dxcam>=0.0.5
+pydirectinput>=1.0.4
+colorama>=0.4.6
